@@ -1,0 +1,219 @@
+.logo {
+  font-size: 40px;
+  text-shadow: 0px 0px 10px;
+
+  color: #d90429;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.bg {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(./img/Avatar.jpg);
+
+  width: 99%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#hero {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  color: aliceblue;
+  text-align: center;
+  transform: translateY(-50%);
+  top: 50%;
+  text-shadow: 0px 0px 10px;
+}
+.btn_signout {
+  background-color: #d90429;
+  color: aliceblue;
+  width: 95px;
+  height: 35px;
+  border-radius: 5px;
+  left: 80%;
+  border: solid red 1px;
+  margin: 0 auto;
+  font-weight: bold;
+  font-family: sans-serif;
+  position: absolute;
+}
+
+.btn_signout:hover {
+  transform: scale(1.1);
+}
+
+.btn4 {
+  font-weight: bold;
+  background-color: #d90429;
+  width: 150px;
+
+  height: 40px;
+  border: solid 1px red;
+  color: white;
+  border-radius: 5px;
+}
+.text1 {
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.text2 {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: red;
+}
+.input {
+  background: none;
+  color: grey;
+
+  text-align: center;
+  border-radius: 3px;
+  border: solid grey 2px;
+  width: 250px;
+  height: 35px;
+}
+@media (max-width: 768px) {
+  .logo {
+    font-size: 25px;
+  }
+  .btn_signout {
+    left: 80%;
+    width: 85px;
+    height: 30px;
+    border-radius: 5px;
+  }
+}
+
+@media (max-width: 500px) {
+  .btn_signout {
+    left: 70%;
+    width: 85px;
+    height: 28px;
+    border-radius: 4px;
+  }
+  .text1 {
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  .text2 {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: red;
+  }
+}
+@media (min-width: 450px) {
+  .input {
+    width: auto;
+    background: none;
+    color: grey;
+    border: solid grey 2px;
+  }
+  .btn4 {
+    font-weight: bold;
+    background-color: #d90429;
+    width: 120px;
+    height: 35px;
+    border: solid 1px red;
+    color: white;
+    border-radius: 5px;
+  }
+}
+@media (max-width: 1200px) {
+  .bg {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.9)
+      ),
+      url(./img/theairboy.jpg);
+    width: 99%;
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #hero {
+    width: 100%;
+    position: absolute;
+    top: 31%;
+    color: aliceblue;
+    text-align: center;
+    transform: translateY(-50%);
+
+    text-shadow: 0px 0px 10px;
+  }
+}
+@media (max-width: 779px) {
+  .bg {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.9)
+      ),
+      url(./img/Netflix.jpg);
+    width: 99%;
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #hero {
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    color: aliceblue;
+    text-align: center;
+    transform: translateY(-50%);
+
+    text-shadow: 0px 0px 10px;
+  }
+}
+#seleall {
+  background-color: black;
+}
+.bor {
+  margin-top: 10px;
+  border: white;
+  padding: 12px 0;
+  width: 70%;
+  height: 70px;
+  background-color: #1b263b;
+}
+.txt {
+  font-family: sans sans;
+  color: white;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 20px;
+}
+@media (max-width: 768px) {
+  .bor {
+    margin-top: 10px;
+    border: white;
+    width: auto;
+    height: 65px;
+    background-color: #1b263b;
+  }
+}
+
+.text7 {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+.log {
+  color: white;
+}

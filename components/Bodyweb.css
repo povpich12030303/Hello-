@@ -1,0 +1,17 @@
+#About {
+  background-color: black;
+}
+
+p {
+  color: white;
+}
+
+.text {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+.icon {
+  font-size: 30px;
+  color: white;
+}
